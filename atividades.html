@@ -1,185 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Atividades</title>
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="public/css/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="public/css/style.css" />
+        <script src="public/js/bootstrap.bundle.js"></script>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atividades</title>
-    <link rel="stylesheet" type="text/css" href="public/css/bootstrap.css" />
-    <link rel="stylesheet" type="text/css" href="public/css/style.css" />
-    <script src="public/js/bootstrap.bundle.js"></script>
-</head>
+    <body class="d-flex flex-column min-vh-100">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                <div class="container-fluid nav-container">
+                    <a class="navbar-brand brand-title" href="index.html">
+                        <img
+                            src="public/img/logo-badge.png"
+                            width="6%"
+                            alt="" />
+                        <div class="head-title">Family War Camp</div>
+                    </a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseNavbar"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse" id="collapseNavbar">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active">Atividades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="precario.html"
+                                >Preçário</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactos.html"
+                                >Contactos</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
 
-<body class="d-flex flex-column min-vh-100">
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-            <div class="container-fluid nav-container">
-                <a class="navbar-brand brand-title" href="index.html">
-                    <img src="public/img/logo-badge.png" width="6%" alt="">
-                    <div class="head-title">Family War Camp</div>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNavbar"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
-            <div class="navbar-collapse collapse" id="collapseNavbar">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active">Atividades</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="galeria.html">Galeria</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="precario.html">Preçário</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contactos.html">Contactos</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
-    <div class="container-fuild">
-        <div class="page-section-title">
-            <h1 data-toggle="tooltip" title="Tooltip on top">As nossas Atividades</h1>
-        </div>
-    </div>
-
-    <div class="container-fuild">
-        <div class="atividades row">
-            <div class="col-sm-6">
-                <div class="card">
-                    <img class="card-img-top" src="public/img/activities/bootcamp.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Bootcamp</h5>
-                        <p class="card-text">Consiste numa mini recruta militar (com aprendizagem de ordens e vozes
-                            de comando) e numa variedade de jogos militares (jogos de grupo com acessórios militares).
-                        </p>
-                        <a href="galeria.html" class="btn btn-primary">Ver fotos</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="card">
-                    <img class="card-img-top" src="public/img/activities/equipa.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Team Building</h5>
-                        <p class="card-text">Jogos de estratégia, liderança, motivação e união, onde os elementos
-                            de cada equipa têm de se unir para superar os desafios propostos de forma a fortalecer a
-                            evolução pessoal e do grupo.</p>
-                        <a href="galeria.html" class="btn btn-primary">Ver fotos</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="card">
-                    <img class="card-img-top" src="public/img/activities/agua.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Jogos de água</h5>
-                        <p class="card-text">Jogo sazonal onde a água é o interveniente principal e onde os salpicos e
-                            as molhas estão garantidas!</p>
-                        <a href="galeria.html" class="btn btn-primary">Ver fotos</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="card">
-                    <img class="card-img-top" src="public/img/activities/diversos.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Jogos diversos</h5>
-                        <p class="card-text">Conjunto de jogos de equipa tradicionais, sem fronteiras, normalmente
-                            em estafetas com vários acessórios.</p>
-                        <a href="galeria.html" class="btn btn-primary">Ver fotos</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="card">
-                    <img class="card-img-top" src="public/img/activities/futebol.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Mini torneio de futebol</h5>
-                        <p class="card-text">Torneio de futebol com vários jogos arbitrados onde a equipa vencedora leva
-                            para casa a grande taça do torneio!</p>
-                        <a href="galeria.html" class="btn btn-primary">Ver fotos</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="card">
-                    <img class="card-img-top" src="public/img/activities/paintball.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Pista de Tiro</h5>
-                        <p class="card-text">Paintball em alvos onde a pontaria e a rapidez são testados.
-                            Paintball em formato de jogo onde cada equipa tem como objetivo alcançar a bandeira sem ser
-                            pintado pelos elementos da equipa adversária.</p>
-                        <a href="galeria.html" class="btn btn-primary">Ver fotos</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="card">
-                    <img class="card-img-top" src="public/img/activities/obstaculos.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Pista de obstáculos</h5>
-                        <p class="card-text">Circuito com vários obstáculos para transpor ao mesmo tempo que cumprem
-                            objetivos definidos pelo instrutor. Desafio para grandes e pequenos onde a força, resistência
-                            e equilíbrio serão postos à prova! </p>
-                        <a href="galeria.html" class="btn btn-primary">Ver fotos</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="card">
-                    <img class="card-img-top" src="public/img/activities/mato.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Sobrevivência no Mato</h5>
-                        <p class="card-text">Experiência de pernoitar em grupo num ambiente único. Atividades diversas
-                            em meio natural com o objetivo de trabalhar áreas essenciais da sobrevivência
-                            como a orientação, segurança, abrigo, fogo e alimentação. A autonomia, amizade, confiança, 
-                            independência, esforço e a responsabilidade são pontos essenciais nesta 
-                            experiência que permite capacitar cada elemento com competências para enfrentar
-                            e superar os desafios do dia a dia, de forma mais humana, responsável e competente!</p>
-                        <a href="galeria.html" class="btn btn-primary">Ver fotos</a>
-                    </div>
-                </div>
+        <div class="container-fuild">
+            <div class="page-section-title">
+                <h1 data-toggle="tooltip" title="Tooltip on top">
+                    As nossas Atividades
+                </h1>
             </div>
         </div>
-    </div>
 
-    <footer class="mt-auto">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-9 social-links text">
-                    <span class="copyright left-links">© Copyright 2017 FamilyWarCamp</span>
-                    <a class="footer-links-text left-links" href="tel:+351 914 652 498">
-                        <img class="social-icons" src="public/icons/telephone-fill.svg" alt="Telemóvel" width="20"
-                            height="20">
-                        +351 914 652 498
-                    </a>
-                    <a class="footer-links-text left-links" href="mailto:familywarcamp@gmail.com">
-                        <img class="social-icons" src="public/icons/envelope-fill.svg" alt="Telemóvel" width="20"
-                            height="20">
-                        familywarcamp@gmail.com
-                    </a>
+        <div class="container-fuild">
+            <div class="atividades row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <img
+                            class="card-img-top"
+                            src="public/img/activities/bootcamp.jpg"
+                            alt="Card image cap" />
+                        <div class="card-body">
+                            <h5 class="card-title">Bootcamp</h5>
+                            <p class="card-text">
+                                Consiste numa mini recruta militar (com
+                                aprendizagem de ordens e vozes militares) e numa
+                                variedade de jogos militares (jogos de grupo com
+                                acessórios militares).
+                            </p>
+                            <a href="galeria.html" class="btn btn-primary"
+                                >Ver fotos</a
+                            >
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-3 social-links icons">
-                    <span>SEGUE-NOS</span>
-                    <a href="https://www.facebook.com/familywarcamp" title="facebook">
-                        <img class="social-icons facebook" src="public/icons/facebook.svg" alt="Facebook" width="32"
-                            height="32">
-                    </a>
-                    <a href="https://www.instagram.com/familywarcamp" title="instagram">
-                        <img class="social-icons instagram" src="public/icons/instagram.svg" alt="instagram" width="32"
-                            height="32">
-                    </a>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <img
+                            class="card-img-top"
+                            src="public/img/activities/equipa.jpg"
+                            alt="Card image cap" />
+                        <div class="card-body">
+                            <h5 class="card-title">Team Building</h5>
+                            <p class="card-text">
+                                Jogos de estratégia, liderança, motivação,
+                                organização e união, onde os elementos de cada
+                                equipa têm de se unir para superara os desafios
+                                propostos de forma a fortalecer a evolução
+                                pessoal e do grupo.
+                            </p>
+                            <a href="galeria.html" class="btn btn-primary"
+                                >Ver fotos</a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <img
+                            class="card-img-top"
+                            src="public/img/activities/agua.jpg"
+                            alt="Card image cap" />
+                        <div class="card-body">
+                            <h5 class="card-title">Jogos de água</h5>
+                            <p class="card-text">
+                                Jogo sazonal onde a água é o interveniente
+                                principal e onde os salpicos e as molhas estão
+                                garantidas!
+                            </p>
+                            <a href="galeria.html" class="btn btn-primary"
+                                >Ver fotos</a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <img
+                            class="card-img-top"
+                            src="public/img/activities/diversos.jpg"
+                            alt="Card image cap" />
+                        <div class="card-body">
+                            <h5 class="card-title">Jogos diversos</h5>
+                            <p class="card-text">
+                                Conjunto de jogos de equipa tradicionais, sem
+                                fronteiras, normalmente em estafetas com vários
+                                acessórios.
+                            </p>
+                            <a href="galeria.html" class="btn btn-primary"
+                                >Ver fotos</a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <img
+                            class="card-img-top"
+                            src="public/img/activities/futebol.jpg"
+                            alt="Card image cap" />
+                        <div class="card-body">
+                            <h5 class="card-title">Mini torneio de futebol</h5>
+                            <p class="card-text">
+                                Torneio com vários jogos com árbitro e com
+                                equipa vencedora com medalha/taça no final.
+                            </p>
+                            <a href="galeria.html" class="btn btn-primary"
+                                >Ver fotos</a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <img
+                            class="card-img-top"
+                            src="public/img/activities/paintball.jpg"
+                            alt="Card image cap" />
+                        <div class="card-body">
+                            <h5 class="card-title">Pista de Tiro</h5>
+                            <p class="card-text">
+                                Paintball em alvos onde a pontaria e a rapidez
+                                são testados. Paintball em formato de jogo onde
+                                cada equipa tem como objetivo alcançar a
+                                bandeira sem ser pintado pelos elementos da
+                                equipa adversária.
+                            </p>
+                            <a href="galeria.html" class="btn btn-primary"
+                                >Ver fotos</a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <img
+                            class="card-img-top"
+                            src="public/img/activities/obstaculos.jpg"
+                            alt="Card image cap" />
+                        <div class="card-body">
+                            <h5 class="card-title">Pista de obstáculos</h5>
+                            <p class="card-text">
+                                Circuito com vários obstáculos para transpor ao
+                                mesmo tempo que cumprem objetivos definidos pelo
+                                instrutor.
+                            </p>
+                            <a href="galeria.html" class="btn btn-primary"
+                                >Ver fotos</a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <img
+                            class="card-img-top"
+                            src="public/img/activities/mato.jpg"
+                            alt="Card image cap" />
+                        <div class="card-body">
+                            <h5 class="card-title">Sobrevivência no Mato</h5>
+                            <p class="card-text">
+                                Experiência de pernoitar em grupo num ambiente
+                                único. Atividades diversas em meio natural com o
+                                objetivo de trabalhar áreas essenciais da
+                                sobrevivência como a orientação, segurança,
+                                abrigo, fogo e alimentação. A autonomia,
+                                amizade, confiança, independência, esforço e a
+                                responsabilidade são pontos essenciais nesta
+                                experiência que permite capacitar cada elemento
+                                com competências para enfrentar e superar os
+                                desafios do dia a dia, de forma mais humana,
+                                responsável e competente!
+                            </p>
+                            <a href="galeria.html" class="btn btn-primary"
+                                >Ver fotos</a
+                            >
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </footer>
-</body>
 
+        <footer class="mt-auto">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-9 social-links text">
+                        <span class="copyright left-links"
+                            >© Copyright 2017 FamilyWarCamp</span
+                        >
+                        <a
+                            class="footer-links-text left-links"
+                            href="tel:+351 914 652 498">
+                            <img
+                                class="social-icons"
+                                src="public/icons/telephone-fill.svg"
+                                alt="Telemóvel"
+                                width="20"
+                                height="20" />
+                            +351 914 652 498
+                        </a>
+                        <a
+                            class="footer-links-text left-links"
+                            href="mailto:familywarcamp@gmail.com">
+                            <img
+                                class="social-icons"
+                                src="public/icons/envelope-fill.svg"
+                                alt="Telemóvel"
+                                width="20"
+                                height="20" />
+                            familywarcamp@gmail.com
+                        </a>
+                    </div>
+                    <div class="col-md-3 social-links icons">
+                        <span>SEGUE-NOS</span>
+                        <a
+                            href="https://www.facebook.com/familywarcamp"
+                            title="facebook">
+                            <img
+                                class="social-icons facebook"
+                                src="public/icons/facebook.svg"
+                                alt="Facebook"
+                                width="32"
+                                height="32" />
+                        </a>
+                        <a
+                            href="https://www.instagram.com/familywarcamp"
+                            title="instagram">
+                            <img
+                                class="social-icons instagram"
+                                src="public/icons/instagram.svg"
+                                alt="instagram"
+                                width="32"
+                                height="32" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>
