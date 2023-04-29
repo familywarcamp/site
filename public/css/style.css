@@ -21,9 +21,7 @@ html{
 body{
     background-image: url("../../public/img/camoflagem3.jpg");
     background-position: 0 0 !important;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size:cover;
+    background-repeat: repeat;
     background-attachment:scroll;
 }
 
