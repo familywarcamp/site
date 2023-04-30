@@ -1,1 +1,1 @@
-# FamilyWarCamp Website 2023
+# FamilyWarCamp Website
