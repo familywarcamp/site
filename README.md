@@ -1,3 +1,3 @@
 # FamilyWarCamp Website
 
-Last update 07/09/24
+Last update and deploy 07/09/24
